@@ -1,0 +1,54 @@
+.about{
+  padding: 458px 0 270px;
+  background-image: url(../../public/images/sign.png);
+  background-repeat: no-repeat;
+  background-position: 50% -50%;
+  background-size: auto;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title {
+  position: relative;
+  margin-bottom: 31px;
+
+  &::before {
+    content: url(../../public/images/decor-light.png);
+    position: absolute;
+    right: 0;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  &::after {
+    content: url(../../public/images/decor-dark.png);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(0%, 50%);
+    z-index: -1;
+  }
+}
+
+
+.about__subtitle {
+  font-size: 18px;
+  line-height: 154%;
+  letter-spacing: -0.005em;
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+  margin: auto auto 47px;
+}
+
+.about__text {
+  font-weight: 700;
+}
+
+.about__button {
+  width: max-content;
+  margin: auto 30% auto 48%;
+}

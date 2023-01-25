@@ -1,0 +1,27 @@
+.footer {
+  padding: 67px 0;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+
+  &::before {
+    content: 'BOBYREV BRANDING';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80%;
+    letter-spacing: -0.055em;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: $main-bg;
+    z-index: -1;
+  }
+}
+
+.footer__list {
+  gap: 40px;
+  display: flex;
+}

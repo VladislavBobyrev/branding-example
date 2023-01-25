@@ -1,0 +1,63 @@
+.page {
+  background: $page-bg;
+  color: $secondary;
+  font-family: TT Travels;
+}
+
+.page__container {
+  max-width: adaptiv-prop(1180, 300);
+  margin: auto;
+}
+
+.page-title {
+  max-width: 1010px;
+  margin: auto;
+  font-size: 96px;
+  line-height: 80%;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.page-title__text {
+  color: $brand;
+} 
+
+.page-title__text--gradient {
+  background-image: $brand-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.button {
+  border: 0;
+  padding: 26px 38px;
+  border-radius: 33.5px;
+  font-size: 18px;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+  background-image: $brand-gradient;
+  cursor: pointer;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $brand $input-bg;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $input-bg;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $brand;
+  border-radius: 20px;
+  border: 3px solid $input-bg;
+}

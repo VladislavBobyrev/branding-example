@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'Druk Wide';
+  src: url('../../public/fonts/FontsFree-Net-Druk-Wide-Bold.ttf');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Italic.eot');
+  src: local('TT Travels Italic'), local('../../public/fonts/TTTravels/TTTravels-Italic'),
+    url('../../public/fonts/TTTravels/TTTravels-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Italic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-ExtraLight.eot');
+  src: local('TT Travels ExtraLight'), local('../../public/fonts/TTTravels/TTTravels-ExtraLight'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLight.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-MediumItalic.eot');
+  src: local('TT Travels Medium Italic'), local('../../public/fonts/TTTravels/TTTravels-MediumItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-MediumItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-BlackItalic.eot');
+  src: local('TT Travels Black Italic'), local('../../public/fonts/TTTravels/TTTravels-BlackItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-BlackItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-ThinItalic.eot');
+  src: local('TT Travels Thin Italic'), local('../../public/fonts/TTTravels/TTTravels-ThinItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-ThinItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Light.eot');
+  src: local('TT Travels Light'), local('../../public/fonts/TTTravels/TTTravels-Light'),
+    url('../../public/fonts/TTTravels/TTTravels-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Light.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Regular.eot');
+  src: local('TT Travels Regular'), local('../../public/fonts/TTTravels/TTTravels-Regular'),
+    url('../../public/fonts/TTTravels/TTTravels-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Regular.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-ExtraBoldItalic.eot');
+  src: local('TT Travels ExtraBold Italic'), local('../../public/fonts/TTTravels/TTTravels-ExtraBoldItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBoldItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-ExtraBold.eot');
+  src: local('TT Travels ExtraBold'), local('../../public/fonts/TTTravels/TTTravels-ExtraBold'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBold.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Black.eot');
+  src: local('TT Travels Black'), local('../../public/fonts/TTTravels/TTTravels-Black'),
+    url('../../public/fonts/TTTravels/TTTravels-Black.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Black.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Medium.eot');
+  src: local('TT Travels Medium'), local('../../public/fonts/TTTravels/TTTravels-Medium'),
+    url('../../public/fonts/TTTravels/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Medium.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-DemiBold.eot');
+  src: local('TT Travels DemiBold'), local('../../public/fonts/TTTravels/TTTravels-DemiBold'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBold.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-ExtraLightItalic.eot');
+  src: local('TT Travels ExtraLight Italic'), local('../../public/fonts/TTTravels/TTTravels-ExtraLightItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLightItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-DemiBoldItalic.eot');
+  src: local('TT Travels DemiBold Italic'), local('../../public/fonts/TTTravels/TTTravels-DemiBoldItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBoldItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-DemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-BoldItalic.eot');
+  src: local('TT Travels Bold Italic'), local('../../public/fonts/TTTravels/TTTravels-BoldItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-BoldItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-LightItalic.eot');
+  src: local('TT Travels Light Italic'), local('../../public/fonts/TTTravels/TTTravels-LightItalic'),
+    url('../../public/fonts/TTTravels/TTTravels-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-LightItalic.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Bold.eot');
+  src: local('TT Travels Bold'), local('../../public/fonts/TTTravels/TTTravels-Bold'),
+    url('../../public/fonts/TTTravels/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Bold.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: url('../../public/fonts/TTTravels/TTTravels-Thin.eot');
+  src: local('TT Travels Thin'), local('../../public/fonts/TTTravels/TTTravels-Thin'),
+    url('../../public/fonts/TTTravels/TTTravels-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/TTTravels/TTTravels-Thin.woff') format('woff'),
+    url('../../public/fonts/TTTravels/TTTravels-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}

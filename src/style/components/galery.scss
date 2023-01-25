@@ -1,0 +1,112 @@
+.galery {
+  background-color: $main-bg;
+  padding: 75px 0;
+}
+
+.galery-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 568px));
+  gap: 30px;
+  justify-content: center;
+}
+
+.galery-list__item {
+  position: relative;
+  min-height: 658px;
+  background-repeat: no-repeat;
+  
+  &:nth-child(2n) {
+    margin-top: -150px;
+  }
+}
+
+.galery-list__image {
+  position: absolute;
+
+}
+
+.galery-list__item--bg-joyrdan {
+  background-color: $joyrdan;
+}
+
+.galery-list__image--joyrdan-z1 {
+  transform: translate(-5%, -25%);
+  top: 0;
+  left: 0;
+}
+
+.galery-list__image--joyrdan-z2 {
+  transform: translate(-50%, 0%);
+  bottom: 0;
+  left: 50%;
+}
+
+.galery-list__image--joyrdan-z3 {
+  transform: translate(-30%, 0%);
+  bottom: 0;
+  left: 0;
+} 
+
+.galery-list__item--bg-jysi {
+  background-image: url(../../public/images/bg-jysi.png);
+}
+
+.galery-list__image--jysi-z1 {
+  transform: translate(-50%, -30%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.galery-list__image--jysi-z2 {
+  transform: translate(-48%, -38%);
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+.galery-list__item--bg-hinkal {
+  background-color: $hinkal;
+}
+
+.galery-list__image--hinkal-z1 {
+  transform: translate(-50%, 90%);
+  bottom: 50%;
+  left: 50%;
+}
+
+.galery-list__image--hinkal-z2 {
+  transform: translate(-50%, 22%);
+  bottom: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.galery-list__image--hinkal-z3 {
+  transform: translate(-50%, 70%);
+  bottom: 50%;
+  left: 50%;
+  z-index: 3;
+}
+
+.galery-list__item--bg-cocos {
+  background-image: url(../../public/images/bg-cocos.png);
+}
+
+.galery-list__image--cocos-z1 {
+  transform: translate(-40%, 40%);
+  top: 0%;
+  left: 0%;
+}
+
+.galery-list__image--cocos-z2 {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.galery-list__image--cocos-z3 {
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 90%;
+}

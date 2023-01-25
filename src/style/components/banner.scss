@@ -1,0 +1,53 @@
+.banner{
+  padding: 50px 0 310px;
+  background: radial-gradient(127.85% 127.85% at 50% 50%, #121212 0%, rgba(18, 18, 18, 0) 38.25%), radial-gradient(127.85% 127.85% at 50% 50%, #121212 0%, rgba(18, 18, 18, 0) 38.25%);
+  background-image: url(../../public/images/banner.png);
+  background-repeat: no-repeat;
+  
+  background-size: contain;
+}
+
+.banner-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+  max-width: 300px;
+  margin: 0 auto 26px;
+}
+
+.banner-list__link{
+  font-size: 24px;
+  letter-spacing: -0.055em;
+}
+
+.banner__title{
+  font-size: 96px;
+  letter-spacing: -0.055em;
+  text-align: center;
+  line-height: 80%;
+  margin-bottom: 43px;
+}
+
+
+
+.form {
+  display: flex;
+}
+
+.banner__form {
+  margin: auto;
+  width: max-content;
+}
+
+.form__input {
+  background: $main-bg;
+  margin-right: -50px;
+  padding: 26px 30px;
+  font-size: 18px;
+  border-radius: 33.5px;
+  border:0;
+  color: $secondary;
+}
+
+
+
